@@ -1,0 +1,18 @@
+{
+  "name": "contraption/component",
+  "description": "A Contraption component",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "me@ollieread.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Contraption\\Component\\": "src/"
+    }
+  },
+  "require": {}
+}
