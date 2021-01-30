@@ -1,6 +1,6 @@
 {
-  "name": "contraption/component",
-  "description": "A Contraption component",
+  "name": "contraption/container",
+  "description": "Contraption dependency injection container component",
   "type": "package",
   "license": "MIT",
   "authors": [
@@ -11,8 +11,15 @@
   ],
   "autoload": {
     "psr-4": {
-      "Contraption\\Component\\": "src/"
+      "Contraption\\Container\\": "src/"
     }
   },
-  "require": {}
+  "autoload-dev": {
+    "psr-4": {
+      "Contraption\\Container\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
 }
